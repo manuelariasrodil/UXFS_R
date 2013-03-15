@@ -10,6 +10,7 @@ data0 <- data.frame(tree = c(1, 2, 3),
                     d4 = c(10, 9, 9),
                     d5 = c(7, 5, 6))
 
+# mal
 # Alternative 1 (lapply, by tree) ----
 # Function to transpose variables that are in columns 
 merge.i <- function(i, data, varv){
